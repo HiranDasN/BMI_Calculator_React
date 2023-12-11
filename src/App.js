@@ -83,7 +83,7 @@ function App() {
     setIsWeight(true)
   }
   return (
-<div style={{height:'100vh'}} className="d-flex justify-content-center align-items-center w-100 bg-dark">
+<div style={{height:'100vh'}} id='bgbmi' className="d-flex justify-content-center align-items-center w-100">
    <div className='bg-light p-5 rounded' style={{width:'500px'}}>      
       <h1>BMI Calculator</h1>
       <h6>Calculate Your BMI Easily</h6>
